@@ -1,0 +1,25 @@
+﻿# Build output
+target/
+*.class
+
+# Eclipse / STS
+.settings/
+.classpath
+.project
+.metadata/
+bin/
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Secrets - never commit
+.env
+*.key
+
+# Test media (large files)
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
